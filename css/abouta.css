@@ -1,0 +1,136 @@
+:root{
+   --hover-bg:#FFCC00;
+   --hover-btn:rgb(37, 113, 228);
+   /* --hover-bg:#FFDE59; */
+   /* --hover-bg:#FAEB26; */
+   --main-bg:#343a40;
+   --text-cl:white;
+   --hd-font-fm-:'Abril Fatface', cursive; 
+   --high-text-size:60px;
+   --mediam-text-size:35px;
+   --med-cen-text-size:25px;
+   --small-text-size:15px;  
+   --mod-high-fn-size:30px;
+   --mod-mediam-fn-size:20px;
+   --mod-small-fn-size:15px;
+   /* --bg:rgba(182, 180, 180, 0.5);/ */
+   /* --bg:rgb(247, 242, 242); */
+   /* --bg:rgba(255, 244, 146, 0.226); */
+   /* --bg:rgba(250, 210, 81, 0.11); */
+   --bga:rgba(6, 32, 65, 0.966);
+}
+
+/* ABOUT SECATION */
+
+
+#about-container-fluid{
+   height: auto;
+   width: 100%;
+}
+#about-container-fluid #about-container{
+   height: auto;
+   width: 100%;
+   /* background-color: aquamarine; */
+}
+#about-container-fluid #about-container .main-about{
+   height: auto;
+   width: 100%;
+}
+#about-container-fluid #about-container .main-about .child-about{
+   height: auto;
+   width: 100%;
+   padding: 20px 0;
+}
+#about-container-fluid #about-container .main-about .child-about h2{
+   text-align: center;
+   line-height: 80px;
+   /* padding-bottom: 20px; */
+   font-size: var(--mediam-text-size);
+}
+#about-container-fluid #about-container .main-about .child-about .about-wrap{
+   height: auto;
+   width: 100%;
+   display: flex;
+   padding: 20px 0;
+}
+#about-container-fluid #about-container .main-about .child-about .about-wrap .about-iteam{
+   height: auto;
+   width: 50%;
+   /* background-color: blueviolet; */
+}
+#about-container-fluid #about-container .main-about .child-about .about-wrap .about-iteam img{
+   height: 300px;
+   width: 100%;
+   padding: 0 30px;
+   display: block;
+   /* margin: 0 auto; */
+}
+#about-container-fluid #about-container .main-about .child-about .about-wrap .about-iteam .gl{
+   height: 120px;
+   width: 35%;
+}
+#about-container-fluid #about-container .main-about .child-about .about-wrap .about-iteam h4{
+    /* padding: 0 20px; */
+    font-size: var(--med-cen-text-size);
+}
+#about-container-fluid #about-container .main-about .child-about .about-wrap .about-iteam p{
+    /* padding: 0 20px; */
+    font-size: var(--small-text-size);
+}
+
+/*  */
+#about-container-fluid #about-container .main-about .child-about .a-row{
+    height: auto;
+    width: 100%;
+    background-color: #FFCC00;
+}
+#about-container-fluid #about-container .main-about .child-about #a-row img{
+    height: 170px;
+    width: 100%;
+}
+
+/* gallery btn */
+#about-container-fluid #about-container .main-about .child-about .about-wrap .about-iteam{
+
+}
+#about-container-fluid #about-container .main-about .child-about .about-wrap .about-iteam a{
+   text-decoration: none;
+}
+#about-container-fluid #about-container .main-about .child-about .about-wrap .about-iteam a button{
+    height: 50px;
+    width: 40%;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    display: block;
+    margin: 30px auto;
+    background-color: var(--hover-bg);
+}
+#about-container-fluid #about-container .main-about .child-about .about-wrap .about-iteam a:hover{
+   color: white;
+}
+/*  */
+/* =============== MEDIA QUERY ============== */
+@media(max-width:965px) and (min-width:200px){
+    #about-container-fluid #about-container .main-about{
+       padding: 0 20px;
+    } 
+    #about-container-fluid #about-container .main-about .child-about .about-wrap{
+       display: block;  
+    }
+    #about-container-fluid #about-container .main-about .child-about .about-wrap .about-iteam{
+       width: 100%;
+       padding: 20px 0;
+    }
+    #about-container-fluid #about-container .main-about .child-about .about-wrap .about-iteam img{
+        width: 100%;
+        padding: 0;
+    }
+    #about-container-fluid #about-container .main-about .child-about .about-wrap .about-iteam h4{
+       font-size: 20px;
+    }
+    #about-container-fluid #about-container .main-about .child-about .about-wrap .about-iteam p{
+       font-size: 15px;
+    }
+}

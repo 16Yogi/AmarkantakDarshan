@@ -1,0 +1,143 @@
+:root{
+    --hover-bg:#FFCC00;
+    --hover-btn:rgb(37, 113, 228);
+    /* --hover-bg:#FFDE59; */
+    /* --hover-bg:#FAEB26; */
+    --main-bg:#343a40;
+    --text-cl:white;
+    --hd-font-fm-:'Abril Fatface', cursive; 
+    --high-text-size:60px;
+    --mediam-text-size:35px;
+    --med-cen-text-size:25px;
+    --small-text-size:15px;  
+    --mod-high-fn-size:30px;
+    --mod-mediam-fn-size:20px;
+    --mod-small-fn-size:15px;
+    /* --bg:rgba(182, 180, 180, 0.5);/ */
+    /* --bg:rgb(247, 242, 242); */
+    /* --bg:rgba(255, 244, 146, 0.226); */
+    /* --bg:rgba(250, 210, 81, 0.11); */
+    --bga:rgba(6, 32, 65, 0.966);
+}
+
+#fooditem-container-fluid{
+    height: auto;
+    width: 100%;
+    /* background-color: #FFCC00; */
+}
+#fooditem-container-fluid #fooditem-container{
+    height: auto;
+    width: 100%;
+}
+#fooditem-container-fluid #fooditem-container h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+#fooditem-container-fluid #fooditem-container h3 i{
+    height: 40px;
+    width: 40px;
+    font-size: 40px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px var(--main-bg);
+    color: var(--hover-bg);
+}
+#fooditem-container-fluid #fooditem-container h3 span{
+    color: var(--hover-bg);
+}
+#fooditem-container-fluid #fooditem-container #fooditem-row{
+    height: auto;
+    width: 100%;   
+    display: flex;
+    /* background-color: #FFCC00; */
+}
+#fooditem-container-fluid #fooditem-container #fooditem-row #fooditem-col{
+    height: auto;
+    width: 50%;
+    padding: 50px 20px;
+    /* background-color: aquamarine; */
+}
+#fooditem-container-fluid #fooditem-container #fooditem-row #fooditem-col img{
+    height: 350px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+#fooditem-container-fluid #fooditem-container #fooditem-row #fooditem-col h5{
+   font-size: var(--hd-font-fm-);
+}
+
+/* img gallery */
+#fooditem-container-fluid #fooditem-container .row-img{
+   height: auto;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   margin: 0 auto;
+   padding: 30px 0;
+}
+#fooditem-container-fluid #fooditem-container .row-img img{
+   height: 170px;
+   width: 23%;
+   border-radius: 3px;
+   box-shadow: 2px 5px 5px var(--hover-bg);
+   /* transition: transform .2s; */
+   display: block;
+}
+#fooditem-container-fluid #fooditem-container .row-img img:hover{
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 3px skyblue;
+   /* transform: scale(1.5); */
+}
+/* table */
+#jumbo-menu{
+    height: 400px;
+    overflow: scroll;
+    /* background-color: #FFCC00; */
+}
+#jumbo-menu::-webkit-scrollbar {
+    width: 10px;
+}
+
+#jumbo-menu::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px grey; 
+  border-radius: 10px;
+}
+#jumbo-menu::-webkit-scrollbar-thumb {
+    background:var(--hover-bg); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+#jumbo-menu::-webkit-scrollbar-thumb:hover {
+    /* background: #b30000;  */
+}
+
+#jumbo-menu #menu-table{
+    
+}
+/*  media query*/
+
+@media (max-width:965px) and (min-width:200px){
+   
+    
+    #fooditem-container-fluid #fooditem-container #fooditem-row{
+        display: block;
+        padding: 0 20px;
+    }
+    #fooditem-container-fluid #fooditem-container #fooditem-row #fooditem-col{
+       width: 100%; 
+       padding: 0;
+    }
+    #fooditem-container-fluid #fooditem-container .row-img{
+       display: block;
+       padding: 0 20px;
+
+    }
+    #fooditem-container-fluid #fooditem-container .row-img img{
+        height: 300px;
+       width: 100%;
+       margin: 20px 0;
+    }
+}

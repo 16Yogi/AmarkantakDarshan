@@ -1,0 +1,10 @@
+<?php
+    include("headder.php");
+    include("banner-secation.php");
+    include("about.php");
+    include("service.php");
+    include("event.php");
+    include("map.php");
+    include("impLinks.php");
+    include("footer.php");
+?>

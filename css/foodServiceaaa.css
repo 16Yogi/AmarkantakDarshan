@@ -1,0 +1,157 @@
+:root{
+    --hover-bg:#FFCC00;
+    --hover-btn:rgb(37, 113, 228);
+    /* --hover-bg:#FFDE59; */
+    /* --hover-bg:#FAEB26; */
+    --main-bg:#343a40;
+    --text-cl:white;
+    --hd-font-fm-:'Abril Fatface', cursive; 
+    --high-text-size:60px;
+    --mediam-text-size:35px;
+    --med-cen-text-size:25px;
+    --small-text-size:15px;  
+    --mod-high-fn-size:30px;
+    --mod-mediam-fn-size:20px;
+    --mod-small-fn-size:15px;
+    /* --bg:rgba(182, 180, 180, 0.5);/ */
+    /* --bg:rgb(247, 242, 242); */
+    /* --bg:rgba(255, 244, 146, 0.226); */
+    /* --bg:rgba(250, 210, 81, 0.11); */
+    --bga:rgba(6, 32, 65, 0.966);
+}
+#food-container-fluid{
+   height: auto;
+   width: 100%;
+   /* background-color: var(--bg);   */
+}
+#food-container-fluid #food-container{
+    height: auto;
+    width: 100%; 
+}
+#food-container-fluid #food-container h3{
+    /* line-height: 200px; */
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+#food-container-fluid #food-container h3 i{
+    height: 40px;
+    width: 40px;
+    font-size: 40px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px var(--main-bg);
+    color: var(--hover-bg);
+}
+#food-container-fluid #food-container h3 span{
+    color: var(--hover-bg);
+}
+
+#food-container-fluid #food-container .main-food{
+    height: auto;
+    width: 100%; 
+}
+#food-container-fluid #food-container .main-food .child-food{
+    height: auto;
+    width: 100%; 
+    padding: 20px 0;
+}
+#food-container-fluid #food-container .main-food .child-food .wrap-food{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    padding: 50px 0;
+    /* background-color: aqua; */
+}
+#food-container-fluid #food-container .main-food .child-food .wrap-food .food-item{
+    height: 410px;
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--main-bg);
+}
+#food-container-fluid #food-container .main-food .child-food .wrap-food .food-item .food-a{
+    padding: 0 10px;
+    /* background-color: beige; */
+}
+#food-container-fluid #food-container .main-food .child-food .wrap-food .food-item .food-a p{
+    font-size: var(--small-text-size);
+    color: var(--text-cl);
+}
+#food-container-fluid #food-container .main-food .child-food .wrap-food .food-item .food-a p:nth-child(1){
+    font-weight: 700;
+   /* line-height: 50px; */
+   padding-top: 10px;
+   color: var(--text-cl);
+}
+#food-container-fluid #food-container .main-food .child-food .wrap-food .food-item .food-a:nth-child(1){
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+    /* background-color: rgb(26, 62, 102); */
+    /* background-image: url("https://b.zmtcdn.com/data/pictures/9/19857789/9a4ecbb78c07bbe9d90b19901605297a_o2_featured_v2.jpg?output-format=webp"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: 100% 100%; */
+}
+#food-container-fluid #food-container .main-food .child-food .wrap-food .food-item .food-a img{
+    height: 250px;
+    width: 100%;
+    border-radius: 5px;
+}
+#food-container-fluid #food-container .main-food .child-food .wrap-food .food-item .food-a:nth-child(1):hover{
+    /* transform: scale(1.1); */
+    /* transition-delay: 0.5s; */
+}
+#food-container-fluid #food-container .main-food .child-food .wrap-food .food-item .food-a:nth-child(3){
+   display: flex;
+   justify-content: space-between;
+   /* padding: 10px; */
+   /* background-color: bisque; */
+}
+#food-container-fluid #food-container .main-food .child-food .wrap-food .food-item .food-a:nth-child(3) h4{
+    font-size: 15px;
+    color: var(--text-cl);
+}
+#food-container-fluid #food-container .main-food .child-food .wrap-food .food-item .food-a:nth-child(3) button{
+    height: auto;
+    width: auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--main-bg);
+    background-color: var(--hover-bg);
+}
+#food-container-fluid #food-container .main-food .child-food .wrap-food .food-item .food-a:nth-child(3) button a{
+    text-decoration: none;
+    color: var(--main-bg);
+}
+
+#food-container-fluid #food-container .main-food .child-food .wrap-food .food-item .food-a:nth-child(3) button:hover{
+    color: var(--text-cl);
+    background-color: var(--hover-btn);
+}
+#food-container-fluid #food-container .main-food .child-food .wrap-food .food-item .food-a:nth-child(3) button a:hover{
+    color: var(--text-cl);
+    background-color: var(--hover-btn);
+}
+
+
+/* ================= MEDIA QUERY ======================== */
+
+@media (max-width:965px) and (min-width:200px){
+    #food-container-fluid #food-container .main-food{
+        padding: 0 20px;
+    }
+    #food-container-fluid #food-container .main-food .child-food .wrap-food{
+        display: block;
+    }
+    #food-container-fluid #food-container .main-food .child-food .wrap-food .food-item{
+        width: 100%;
+        margin: 30px 0;
+    } 
+}

@@ -1,0 +1,88 @@
+/* banner secation */
+:root{
+    --hover-bg:#FFCC00;
+    --hover-btn:rgb(37, 113, 228);
+    /* --hover-bg:#FFDE59; */
+    /* --hover-bg:#FAEB26; */
+    --main-bg:#343a40;
+    --text-cl:white;
+    --hd-font-fm-:'Abril Fatface', cursive; 
+    --high-text-size:60px;
+    --mediam-text-size:35px;
+    --med-cen-text-size:25px;
+    --small-text-size:15px;  
+    --mod-high-fn-size:30px;
+    --mod-mediam-fn-size:20px;
+    --mod-small-fn-size:15px;
+    /* --bg:rgba(182, 180, 180, 0.5);/ */
+    /* --bg:rgb(247, 242, 242); */
+    /* --bg:rgba(255, 244, 146, 0.226); */
+    /* --bg:rgba(250, 210, 81, 0.11); */
+    --bga:rgba(6, 32, 65, 0.966);
+ }
+#bsm-container-fluid{
+    height: 400px;
+    width: 100%;
+    /* padding: 20px; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-position: 0%; */
+}
+#bsm-container-fluid #bgclr{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(0,0,0,0.5);
+}
+#bsm-container-fluid #bgclr #bsm-container{
+    height: auto;
+    width: auto;
+    padding-top: 120px;
+    text-align: center;
+    color: white;
+}
+#bsm-container-fluid #bgclr #bsm-container h3{
+    font-size: var(--high-text-size);
+}
+#bsm-container-fluid #bgclr #bsm-container p{
+    font-weight: 600;
+}
+#bsm-container-fluid #bgclr #bsm-container p a{
+   text-decoration: none;
+   color: var(--hover-bg);
+}
+/* end banner */
+
+#g-container-fluid{
+    padding: 50px 0;
+   /* background-color: aqua; */
+}
+#g-container-fluid #g-container{
+
+} 
+#g-container-fluid #g-container h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+#g-container-fluid #g-container h3 i{
+    height: 40px;
+    width: 40px;
+    font-size: 40px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px var(--main-bg);
+    color: var(--hover-bg);
+}
+#g-container-fluid #g-container h3 span{
+    color: var(--hover-bg);
+}
+#g-container-fluid #g-container #g-row{
+    height: auto;
+    width: 100%;
+    /* background-color: #343a40; */
+}
+#g-container-fluid #g-container #g-row img{
+   height: 170px;
+   width: 100%;
+   margin: 0 auto;
+}

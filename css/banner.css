@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kolker+Brush&display=swap');
+
+
+/* Root Element */
+:root{
+    --hover-bg:#FFCC00;
+    --hover-btn:rgb(37, 113, 228);
+    /* --hover-bg:#FFDE59; */
+    /* --hover-bg:#FAEB26; */
+    --main-bg:#343a40;
+    --text-cl:white;
+    --hd-font-fm-:'Abril Fatface', cursive; 
+    --high-text-size:60px;
+    --mediam-text-size:35px;
+    --med-cen-text-size:25px;
+    --small-text-size:15px;  
+    --mod-high-fn-size:30px;
+    --mod-mediam-fn-size:20px;
+    --mod-small-fn-size:15px;
+    /* --bg:rgba(182, 180, 180, 0.5);/ */
+    /* --bg:rgb(247, 242, 242); */
+    /* --bg:rgba(255, 244, 146, 0.226); */
+    /* --bg:rgba(250, 210, 81, 0.11); */
+    --bga:rgba(6, 32, 65, 0.966);
+}
+
+/* BANNER SECATION */
+
+#banner-container-fluid{
+   height: 600px;
+   width: 100%;
+   /* background-image: url("https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg"); */
+   background-repeat: no-repeat;
+   background-size:100% 100%;
+}
+#banner-container-fluid .main-banner{
+   height: auto;
+   width: 100%;  
+}
+#banner-container-fluid .main-banner .child-banner{
+   height: auto;
+   width: 100%;
+}
+#banner-container-fluid .main-banner .child-banner .banner-wrap{
+   height: auto;
+   width: 100%;
+}
+#banner-container-fluid .main-banner .child-banner .banner-wrap .banner-item{
+    height: auto;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    /* padding-top: 80px; */
+    /* padding: 30px 0; */
+    color: var(--text-cl);
+    /* background-color: aqua; */
+}
+
+#banner-container-fluid .main-banner .child-banner .banner-wrap .banner-item h2{
+    font-family: var(--hd-font-fm-);
+    font-size: var(--high-text-size);
+}
+#banner-container-fluid .main-banner .child-banner .banner-wrap .banner-item h2 span{
+    color: #FFDE59;
+}
+#banner-container-fluid .main-banner .child-banner .banner-wrap .banner-item p{
+    font-size: var(--small-text-size);
+    margin: 20px 0;
+}
+#banner-container-fluid .main-banner .child-banner .banner-wrap .banner-item:nth-child(1){
+    padding-top: 90px;
+    /* background-color: #FFCC00; */
+ }
+#banner-container-fluid .main-banner .child-banner .banner-wrap .banner-item:nth-child(2){
+   width: 25%;
+   display: flex;
+   justify-content: space-between;
+   /* background-color: brown; */
+}
+#banner-container-fluid .main-banner .child-banner .banner-wrap .banner-item a{
+    height: 50px;
+    width: 40%;
+    text-decoration: none;
+}
+#banner-container-fluid .main-banner .child-banner .banner-wrap .banner-item a button{
+   height: 50px;
+   width: 100%;
+   display: block;
+   border: none;
+   outline: none;
+   border-radius: 5px;
+   text-align: center;
+   font-weight: 700;
+   font-size: 15px;
+   /* box-shadow: ; */
+   box-shadow: rgb(245, 245, 245) 0px 3px 8px;
+   margin: 40px 0;
+   color: var(--main-bg);
+   background-color: var(--hover-bg);
+}
+
+#banner-container-fluid .main-banner .child-banner .banner-wrap .banner-item a button:hover{
+    transition: 0.5s;
+    color: var(--text-cl);
+    background-color: var(--hover-btn);
+    /* background-color: var(--main-bg); */
+}
+
+/*====================== Media Query ================*/
+@media(max-width:965px) and (min-width:200px){
+    #banner-container-fluid{
+        height: 450px;
+    }
+    #banner-container-fluid .main-banner .child-banner .banner-wrap .banner-item{
+        /* height: 300px; */
+        width: 90%;  
+    }
+    #banner-container-fluid .main-banner .child-banner .banner-wrap .banner-item h2{
+        font-size: var(--mod-high-fn-size);
+    }
+    #banner-container-fluid .main-banner .child-banner .banner-wrap .banner-item p{
+        font-size: var(--mod-small-fn-size);
+    }
+    #banner-container-fluid .main-banner .child-banner .banner-wrap .banner-item:nth-child(2){
+        width: 70%;
+    }
+    #banner-container-fluid .main-banner .child-banner .banner-wrap .banner-item:nth-child(1){
+        padding-top: 90px;    
+    }
+    #banner-container-fluid .main-banner .child-banner .banner-wrap .banner-item a{
+        height: 40px;
+        width: 30%;
+        margin: 10px 0;
+    }
+    #banner-container-fluid .main-banner .child-banner .banner-wrap .banner-item a button {
+        font-size: var(--mod-small-fn-size);
+    }
+}

@@ -1,0 +1,132 @@
+:root{
+   --hover-bg:#FFCC00;
+   --hover-btn:rgb(37, 113, 228);
+   /* --hover-bg:#FFDE59; */
+   /* --hover-bg:#FAEB26; */
+   --main-bg:#343a40;
+   --text-cl:white;
+   --hd-font-fm-:'Abril Fatface', cursive; 
+   --high-text-size:60px;
+   --mediam-text-size:35px;
+   --med-cen-text-size:25px;
+   --small-text-size:15px;  
+   --mod-high-fn-size:30px;
+   --mod-mediam-fn-size:20px;
+   --mod-small-fn-size:15px;
+   /* --bg:rgba(182, 180, 180, 0.5);/ */
+   --bg:rgb(247, 242, 242);
+   /* --bg:rgba(255, 244, 146, 0.226); */
+   /* --bg:rgba(250, 210, 81, 0.11); */
+   --bga:rgba(6, 32, 65, 0.966);
+}
+
+/* service css */
+
+#service-container-fluid{
+   height: auto;
+   width: 100%;
+   background-color: var(--bg);
+}
+#service-container-fluid #service-container{
+   height: auto;
+   width: 100%;
+}
+#service-container-fluid #service-container .main-service{
+   height: auto;
+   width: 100%;
+}
+#service-container-fluid #service-container .main-service .child-service{
+   height: auto;
+   width: 100%;
+   padding: 20px 0;
+}
+#service-container-fluid #service-container .main-service .child-service h2{
+    font-size: var(--mediam-text-size);
+    line-height: 40px;
+    padding: 20px 0;
+
+}
+#service-container-fluid #service-container .main-service .child-service .wrap-service{
+   height: auto;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   padding: 40px 0;
+}
+#service-container-fluid #service-container .main-service .child-service .wrap-service .service-item{
+   height: 400px;
+   width: 30%;  
+   /* border-radius: 10px; */
+   /* background-color: blueviolet; */
+}
+#service-container-fluid #service-container .main-service .child-service .wrap-service .service-item .ser-con{
+   height: 200px;
+   width: 100%;
+   /* border-radius: 10px; */
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 10px;
+   /* background-color: blueviolet; */
+}
+#service-container-fluid #service-container .main-service .child-service .wrap-service .service-item .ser-con img{
+   height: 200px;
+   width: 100%;
+   border-top-right-radius: 30px;
+}
+#service-container-fluid #service-container .main-service .child-service .wrap-service .service-item .ser-con:nth-child(2){
+   padding: 10px;
+   color: white;
+   background-color: var(--bga);
+}
+#service-container-fluid #service-container .main-service .child-service .wrap-service .service-item .ser-con h5{
+   font-size: var(--med-cen-text-size);
+   /* color: var(--bg); */
+}
+#service-container-fluid #service-container .main-service .child-service .wrap-service .service-item .ser-con p{
+   font-size: var(--small-text-size);
+   color: var(--text-cl);
+}
+#service-container-fluid #service-container .main-service .child-service .wrap-service .service-item .ser-con a{
+   text-decoration: none;
+}
+#service-container-fluid #service-container .main-service .child-service .wrap-service .service-item .ser-con a button{
+   height: 45px;
+   width: 40%;
+   display: block;
+   border: none;
+   outline: none;
+   border-radius: 10px;
+   font-weight: 700;
+   font-size: var(--small-text-size);
+   margin: 0 auto;
+   /* color: var(--text-cl); */
+   background-color: var(--hover-bg);
+}
+
+#service-container-fluid #service-container .main-service .child-service .wrap-service .service-item .ser-con a button:hover{
+    transition: 0.5s;
+    color: var(--text-cl);
+    background-color: var(--hover-btn);
+}
+/* ================ MEDIA QUERY =============== */
+
+@media(max-width:965px) and (min-width:200px){
+    #service-container-fluid #service-container .main-service{
+        padding: 0 20px;
+    }
+    #service-container-fluid #service-container .main-service .child-service .wrap-service{
+        display: block;
+    }
+    #service-container-fluid #service-container .main-service .child-service .wrap-service .service-item{
+        width: 100%;
+        margin: 40px 0;
+    }
+    #service-container-fluid #service-container .main-service .child-service .wrap-service .service-item .ser-con h5{
+        font-size: 20px;
+    }
+    #service-container-fluid #service-container .main-service .child-service .wrap-service .service-item .ser-con p{
+        font-size: 15px;
+    }
+    #service-container-fluid #service-container .main-service .child-service .wrap-service .service-item .ser-con a button{
+        font-size: 13px;
+    }
+}

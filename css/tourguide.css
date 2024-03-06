@@ -1,0 +1,101 @@
+:root{
+    --hover-bg:#FFCC00;
+    --hover-btn:rgb(37, 113, 228);
+    /* --hover-bg:#FFDE59; */
+    /* --hover-bg:#FAEB26; */
+    --main-bg:#343a40;
+    --text-cl:white;
+    --hd-font-fm-:'Abril Fatface', cursive; 
+    --high-text-size:60px;
+    --mediam-text-size:35px;
+    --med-cen-text-size:25px;
+    --small-text-size:15px;  
+    --mod-high-fn-size:30px;
+    --mod-mediam-fn-size:20px;
+    --mod-small-fn-size:15px;
+    /* --bg:rgba(182, 180, 180, 0.5);/ */
+    /* --bg:rgb(247, 242, 242); */
+    /* --bg:rgba(255, 244, 146, 0.226); */
+    /* --bg:rgba(250, 210, 81, 0.11); */
+    --bga:rgba(6, 32, 65, 0.966);
+}
+
+#guide-container-fluid{
+   /* background-color: aqua; */
+}
+#guide-container-fluid #guide-container{
+
+} 
+#guide-container-fluid #guide-container h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+#guide-container-fluid #guide-container h3 i{
+    height: 40px;
+    width: 40px;
+    font-size: 40px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px var(--main-bg);
+    color: var(--hover-bg);
+}
+#guide-container-fluid #guide-container h3 span{
+    color: var(--hover-bg);
+}
+
+#guide-container-fluid #guide-container #tour-row{
+   height: auto;
+   padding:20px 0;
+   /* background-color: blueviolet; */
+}
+#guide-container-fluid #guide-container #tour-row .card{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    /* padding: 15px 0; */
+    box-shadow: 2px 2px 5px 2px rgb(228, 225, 225);
+}
+#guide-container-fluid #guide-container #tour-row .card:hover .card-body{
+    /* border-radius: 5px; */
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+    transition: 0.5s;
+    color: white;
+    background-color: var(--hover-btn);
+}
+#guide-container-fluid #guide-container #tour-row .card img{
+    height: 200px;
+    /* width: 100%; */
+}
+#guide-container-fluid #guide-container #tour-row .card .card-body{
+    /* padding: 15px 15px; */
+    /* padding: bo; */
+}
+#guide-container-fluid #guide-container #tour-row .card .card-body ul{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+#guide-container-fluid #guide-container #tour-row .card .card-body ul a{
+   height: 35px;
+   width: 35px;
+   text-align: center;
+   text-decoration: none;
+   line-height: 35px;
+   border-radius: 50%;
+   box-shadow: 2px 2px 2px 2px rgb(199, 194, 194);
+   color: var(--main-bg);
+   background-color: var(--hover-bg);
+}
+#guide-container-fluid #guide-container #tour-row .card .card-body ul a:hover{
+    color: white;
+    background-color: var(--main-bg);
+}
+
+@media (max-width:965px) and (min-width:200px){
+    
+}
